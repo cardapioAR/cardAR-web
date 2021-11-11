@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CardAR: Cardápio de Realidade Aumentada">
+    <meta name="author" content="Felipe G., Vinicius Ciolfi e mais">
+    <title>CardAR - Sessão de Restaurantes</title>
+
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/signin.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+</head>
+<body class="text-center">
+    <main class="form-signin">
+        <form method="POST">
+          <img class="mb-4" src="assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+          <h1 class="h3 mb-3 fw-normal">Por favor, informe os dados do seu restaurante</h1>
+  
+          <div class="form-floating">
+            <input required type="text" class="form-control" name="nomeRestaurante" id="nomeRestaurante" placeholder="Exemplo de Restaurante">
+            <label for="nomeRestaurante">Nome do Restaurante</label>
+          </div>
+  
+          <br/>
+
+          <div class="form-floating">
+            <input required type="text" class="form-control" name="enderecoRestaurante" id="enderecoRestaurante" placeholder="Endereço, do - Restaurante">
+            <label for="enderecoRestaurante">Endereço do Restaurante</label>
+          </div>
+  
+          <br/>
+  
+          <div class="form-floating">
+            <input required type="text" class="form-control" name="tituloPrato1" id="tituloPrato1" placeholder="Título do Prato 1">
+            <label for="tituloPrato1">Prato 1 - Título</label>
+          </div>
+
+          <br/>
+  
+          <div class="form-floating">
+            <textarea required class="form-control" name="descricaoPrato1" id="descricaoPrato1" placeholder="Descrição do Prato 1"></textarea>
+            <label for="descricaoPrato1">Prato 1 - Descrição</label>
+          </div>
+
+          <br/>
+  
+          <div class="form-floating">
+            <input type="text" class="form-control" name="tituloPrato2" id="tituloPrato2" placeholder="Título do Prato 2">
+            <label for="tituloPrato2">Prato 2 - Título</label>
+          </div>
+
+          <br/>
+  
+          <div class="form-floating">
+            <textarea class="form-control" name="descricaoPrato2" id="descricaoPrato2" placeholder="Descrição do Prato 2"></textarea>
+            <label for="descricaoPrato2">Prato 2 - Descrição</label>
+          </div>
+
+          <br/>
+
+          <div class="form-floating">
+            <input type="text" class="form-control" name="tituloPrato3" id="tituloPrato3" placeholder="Título do Prato 3">
+            <label for="tituloPrato3">Prato 3 - Título</label>
+          </div>
+
+          <br/>
+  
+          <div class="form-floating">
+            <textarea class="form-control" name="descricaoPrato3" id="descricaoPrato3" placeholder="Descrição do Prato 3"></textarea>
+            <label for="descricaoPrato3">Prato 3 - Descrição</label>
+          </div>
+
+          <br/>
+
+          <button class="w-100 btn btn-lg btn-primary mt-4" type="submit">Cadastrar Restaurante</button>
+          <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
+        </form>
+    </main>
+</body>
+</html>
